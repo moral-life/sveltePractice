@@ -1,2 +1,13 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    let name = 'Minha'
+</script>
+
+<h1>Welcome to {name}'s Homepage</h1>
+
+<style>
+    h1{
+        color: blue;
+    }
+</style>
+
+<p>Hello</p>
